@@ -9,32 +9,60 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
+    
     private var items: FetchedResults<Item>
+    
+    let menu = Bundle.main.decode([MenuSection].self, from: "menu.json")
+    
 
     var body: some View {
-        List {
-            ForEach(items) { item in
-                Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+        
+        NavigationView {
+        
+            List {
+                
+                ForEach(menu) { section in
+                    
+                    Section(header: Text(section.name)) {
+                        
+                        ForEach(section.items) { item in
+                            NavigationLink(
+                                destination: ItemDetail(item : item),
+                                label: {
+                                    Text(item.name)
+                                })
+                        }
+                    }
+                    
+                }
+                
             }
-            .onDelete(perform: deleteItems)
+            .toolbar {
+                #if os(iOS)
+                EditButton()
+                #elseif os(watchOS)
+                #elseif os(macOS)
+                Button(action: addItem) {
+                    Label("Add Item", systemImage: "plus")
+                }
+                #elseif os(tvOS)
+                #endif
+                
+            }
+            .navigationTitle("Menu")
         }
-        .toolbar {
-            #if os(iOS)
-            EditButton()
-            #endif
 
-            Button(action: addItem) {
-                Label("Add Item", systemImage: "plus")
-            }
-        }
+        
     }
 
     private func addItem() {
+        
         withAnimation {
             let newItem = Item(context: viewContext)
             newItem.timestamp = Date()
@@ -51,6 +79,7 @@ struct ContentView: View {
     }
 
     private func deleteItems(offsets: IndexSet) {
+        
         withAnimation {
             offsets.map { items[$0] }.forEach(viewContext.delete)
 
@@ -64,6 +93,8 @@ struct ContentView: View {
             }
         }
     }
+    
+    
 }
 
 private let itemFormatter: DateFormatter = {
@@ -74,7 +105,10 @@ private let itemFormatter: DateFormatter = {
 }()
 
 struct ContentView_Previews: PreviewProvider {
+    
     static var previews: some View {
+        
+        
         ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }

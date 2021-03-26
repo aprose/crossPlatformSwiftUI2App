@@ -19,6 +19,58 @@
 		9C11A05925FBB54800DB6386 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A02A25FBB54700DB6386 /* Persistence.swift */; };
 		9C11A05A25FBB54800DB6386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C11A02B25FBB54800DB6386 /* Assets.xcassets */; };
 		9C11A05B25FBB54800DB6386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C11A02B25FBB54800DB6386 /* Assets.xcassets */; };
+		9C11A06F25FC0D6F00DB6386 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A06E25FC0D6F00DB6386 /* Helper.swift */; };
+		9C11A07025FC0D6F00DB6386 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A06E25FC0D6F00DB6386 /* Helper.swift */; };
+		9C11A07725FC0D7E00DB6386 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A07525FC0D7E00DB6386 /* Menu.swift */; };
+		9C11A07825FC0D7E00DB6386 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A07525FC0D7E00DB6386 /* Menu.swift */; };
+		9C11A07925FC0D7E00DB6386 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A07625FC0D7E00DB6386 /* Order.swift */; };
+		9C11A07A25FC0D7E00DB6386 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A07625FC0D7E00DB6386 /* Order.swift */; };
+		9C11A08025FC0D8C00DB6386 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C11A07F25FC0D8C00DB6386 /* menu.json */; };
+		9C11A08125FC0D8C00DB6386 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C11A07F25FC0D8C00DB6386 /* menu.json */; };
+		9C11A08B25FC168000DB6386 /* SwiftUIViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A08A25FC168000DB6386 /* SwiftUIViewOne.swift */; };
+		9C11A08C25FC168000DB6386 /* SwiftUIViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A08A25FC168000DB6386 /* SwiftUIViewOne.swift */; };
+		9C11A09225FD627A00DB6386 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A09125FD627A00DB6386 /* ItemRow.swift */; };
+		9C11A09325FD627A00DB6386 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A09125FD627A00DB6386 /* ItemRow.swift */; };
+		9C11A09925FE9C1400DB6386 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A09825FE9C1400DB6386 /* ItemDetail.swift */; };
+		9C11A09A25FE9C1400DB6386 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A09825FE9C1400DB6386 /* ItemDetail.swift */; };
+		9C11A0A025FFDCFC00DB6386 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A09F25FFDCFC00DB6386 /* OrderView.swift */; };
+		9C11A0A125FFDCFC00DB6386 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A09F25FFDCFC00DB6386 /* OrderView.swift */; };
+		9C11A0A7260004E400DB6386 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A0A6260004E400DB6386 /* MainView.swift */; };
+		9C11A0A8260004E400DB6386 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A0A6260004E400DB6386 /* MainView.swift */; };
+		9C11A0AE2600138900DB6386 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A0AD2600138900DB6386 /* CheckoutView.swift */; };
+		9C11A0AF2600138A00DB6386 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A0AD2600138900DB6386 /* CheckoutView.swift */; };
+		9C349BB32604F2E0008DB2D8 /* Chapter5Viewlayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BB22604F2E0008DB2D8 /* Chapter5Viewlayout.swift */; };
+		9C349BB42604F2E0008DB2D8 /* Chapter5Viewlayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BB22604F2E0008DB2D8 /* Chapter5Viewlayout.swift */; };
+		9C349BBA26054A9D008DB2D8 /* Chapter6StacksGridsScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BB926054A9D008DB2D8 /* Chapter6StacksGridsScroll.swift */; };
+		9C349BBB26054A9D008DB2D8 /* Chapter6StacksGridsScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BB926054A9D008DB2D8 /* Chapter6StacksGridsScroll.swift */; };
+		9C349BC126056639008DB2D8 /* Chapter7UIControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BC026056639008DB2D8 /* Chapter7UIControls.swift */; };
+		9C349BC226056639008DB2D8 /* Chapter7UIControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BC026056639008DB2D8 /* Chapter7UIControls.swift */; };
+		9C349BC8260640DD008DB2D8 /* SwiftUIViewMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BC7260640DD008DB2D8 /* SwiftUIViewMap.swift */; };
+		9C349BC9260640DD008DB2D8 /* SwiftUIViewMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BC7260640DD008DB2D8 /* SwiftUIViewMap.swift */; };
+		9C349BCF26067BC2008DB2D8 /* Ch9Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BCE26067BC2008DB2D8 /* Ch9Gestures.swift */; };
+		9C349BD026067BC2008DB2D8 /* Ch9Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BCE26067BC2008DB2D8 /* Ch9Gestures.swift */; };
+		9C349BD62606863E008DB2D8 /* Ch10StateBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BD52606863E008DB2D8 /* Ch10StateBinding.swift */; };
+		9C349BD72606863E008DB2D8 /* Ch10StateBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BD52606863E008DB2D8 /* Ch10StateBinding.swift */; };
+		9C349BDD26076E19008DB2D8 /* Ch11Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BDC26076E19008DB2D8 /* Ch11Lists.swift */; };
+		9C349BDE26076E19008DB2D8 /* Ch11Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BDC26076E19008DB2D8 /* Ch11Lists.swift */; };
+		9C349BE42607D3CB008DB2D8 /* Ch12Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BE32607D3CB008DB2D8 /* Ch12Forms.swift */; };
+		9C349BE52607D3CB008DB2D8 /* Ch12Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BE32607D3CB008DB2D8 /* Ch12Forms.swift */; };
+		9C349BEB2607EC36008DB2D8 /* Ch13Containers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BEA2607EC36008DB2D8 /* Ch13Containers.swift */; };
+		9C349BEC2607EC36008DB2D8 /* Ch13Containers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BEA2607EC36008DB2D8 /* Ch13Containers.swift */; };
+		9C349BF22608892C008DB2D8 /* Ch14AlertActionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BF12608892C008DB2D8 /* Ch14AlertActionMenu.swift */; };
+		9C349BF32608892C008DB2D8 /* Ch14AlertActionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349BF12608892C008DB2D8 /* Ch14AlertActionMenu.swift */; };
+		9C349C3F2609041C008DB2D8 /* Ch15PresentingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349C3E2609041C008DB2D8 /* Ch15PresentingViews.swift */; };
+		9C349C402609041C008DB2D8 /* Ch15PresentingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349C3E2609041C008DB2D8 /* Ch15PresentingViews.swift */; };
+		9C349C46260A6E7A008DB2D8 /* Ch16Transforming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349C45260A6E7A008DB2D8 /* Ch16Transforming.swift */; };
+		9C349C47260A6E7A008DB2D8 /* Ch16Transforming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349C45260A6E7A008DB2D8 /* Ch16Transforming.swift */; };
+		9C349C4D260BA518008DB2D8 /* Ch17Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349C4C260BA518008DB2D8 /* Ch17Drawing.swift */; };
+		9C349C4E260BA518008DB2D8 /* Ch17Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349C4C260BA518008DB2D8 /* Ch17Drawing.swift */; };
+		9C349C54260BEBF4008DB2D8 /* Ch18Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349C53260BEBF4008DB2D8 /* Ch18Animation.swift */; };
+		9C349C55260BEBF4008DB2D8 /* Ch18Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349C53260BEBF4008DB2D8 /* Ch18Animation.swift */; };
+		9C349C5B260D5152008DB2D8 /* Ch19ComposingVws.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349C5A260D5152008DB2D8 /* Ch19ComposingVws.swift */; };
+		9C349C5C260D5152008DB2D8 /* Ch19ComposingVws.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C349C5A260D5152008DB2D8 /* Ch19ComposingVws.swift */; };
+		9C74FE262602B86500829C74 /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C74FE252602B86500829C74 /* Chapter4View.swift */; };
+		9C74FE272602B86500829C74 /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C74FE252602B86500829C74 /* Chapter4View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +107,32 @@
 		9C11A04B25FBB54800DB6386 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C11A04F25FBB54800DB6386 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		9C11A05125FBB54800DB6386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C11A06E25FC0D6F00DB6386 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		9C11A07525FC0D7E00DB6386 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		9C11A07625FC0D7E00DB6386 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		9C11A07F25FC0D8C00DB6386 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		9C11A08A25FC168000DB6386 /* SwiftUIViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewOne.swift; sourceTree = "<group>"; };
+		9C11A09125FD627A00DB6386 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		9C11A09825FE9C1400DB6386 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		9C11A09F25FFDCFC00DB6386 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		9C11A0A6260004E400DB6386 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9C11A0AD2600138900DB6386 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		9C349BB22604F2E0008DB2D8 /* Chapter5Viewlayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5Viewlayout.swift; sourceTree = "<group>"; };
+		9C349BB926054A9D008DB2D8 /* Chapter6StacksGridsScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter6StacksGridsScroll.swift; sourceTree = "<group>"; };
+		9C349BC026056639008DB2D8 /* Chapter7UIControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter7UIControls.swift; sourceTree = "<group>"; };
+		9C349BC7260640DD008DB2D8 /* SwiftUIViewMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewMap.swift; sourceTree = "<group>"; };
+		9C349BCE26067BC2008DB2D8 /* Ch9Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch9Gestures.swift; sourceTree = "<group>"; };
+		9C349BD52606863E008DB2D8 /* Ch10StateBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch10StateBinding.swift; sourceTree = "<group>"; };
+		9C349BDC26076E19008DB2D8 /* Ch11Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch11Lists.swift; sourceTree = "<group>"; };
+		9C349BE32607D3CB008DB2D8 /* Ch12Forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch12Forms.swift; sourceTree = "<group>"; };
+		9C349BEA2607EC36008DB2D8 /* Ch13Containers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch13Containers.swift; sourceTree = "<group>"; };
+		9C349BF12608892C008DB2D8 /* Ch14AlertActionMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch14AlertActionMenu.swift; sourceTree = "<group>"; };
+		9C349C3E2609041C008DB2D8 /* Ch15PresentingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch15PresentingViews.swift; sourceTree = "<group>"; };
+		9C349C45260A6E7A008DB2D8 /* Ch16Transforming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch16Transforming.swift; sourceTree = "<group>"; };
+		9C349C4C260BA518008DB2D8 /* Ch17Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch17Drawing.swift; sourceTree = "<group>"; };
+		9C349C53260BEBF4008DB2D8 /* Ch18Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch18Animation.swift; sourceTree = "<group>"; };
+		9C349C5A260D5152008DB2D8 /* Ch19ComposingVws.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch19ComposingVws.swift; sourceTree = "<group>"; };
+		9C74FE252602B86500829C74 /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +182,37 @@
 		9C11A02525FBB54700DB6386 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9C11A07F25FC0D8C00DB6386 /* menu.json */,
+				9C11A07525FC0D7E00DB6386 /* Menu.swift */,
+				9C11A07625FC0D7E00DB6386 /* Order.swift */,
+				9C11A06E25FC0D6F00DB6386 /* Helper.swift */,
 				9C11A02825FBB54700DB6386 /* iDineApp.swift */,
 				9C11A02925FBB54700DB6386 /* ContentView.swift */,
 				9C11A02A25FBB54700DB6386 /* Persistence.swift */,
 				9C11A02B25FBB54800DB6386 /* Assets.xcassets */,
 				9C11A02625FBB54700DB6386 /* iDine.xcdatamodeld */,
+				9C11A08A25FC168000DB6386 /* SwiftUIViewOne.swift */,
+				9C11A09125FD627A00DB6386 /* ItemRow.swift */,
+				9C11A09825FE9C1400DB6386 /* ItemDetail.swift */,
+				9C11A09F25FFDCFC00DB6386 /* OrderView.swift */,
+				9C11A0A6260004E400DB6386 /* MainView.swift */,
+				9C11A0AD2600138900DB6386 /* CheckoutView.swift */,
+				9C74FE252602B86500829C74 /* Chapter4View.swift */,
+				9C349BB22604F2E0008DB2D8 /* Chapter5Viewlayout.swift */,
+				9C349BB926054A9D008DB2D8 /* Chapter6StacksGridsScroll.swift */,
+				9C349BC026056639008DB2D8 /* Chapter7UIControls.swift */,
+				9C349BC7260640DD008DB2D8 /* SwiftUIViewMap.swift */,
+				9C349BCE26067BC2008DB2D8 /* Ch9Gestures.swift */,
+				9C349BD52606863E008DB2D8 /* Ch10StateBinding.swift */,
+				9C349BDC26076E19008DB2D8 /* Ch11Lists.swift */,
+				9C349BE32607D3CB008DB2D8 /* Ch12Forms.swift */,
+				9C349BEA2607EC36008DB2D8 /* Ch13Containers.swift */,
+				9C349BF12608892C008DB2D8 /* Ch14AlertActionMenu.swift */,
+				9C349C3E2609041C008DB2D8 /* Ch15PresentingViews.swift */,
+				9C349C45260A6E7A008DB2D8 /* Ch16Transforming.swift */,
+				9C349C4C260BA518008DB2D8 /* Ch17Drawing.swift */,
+				9C349C53260BEBF4008DB2D8 /* Ch18Animation.swift */,
+				9C349C5A260D5152008DB2D8 /* Ch19ComposingVws.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -283,6 +387,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C11A08025FC0D8C00DB6386 /* menu.json in Resources */,
 				9C11A05A25FBB54800DB6386 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +396,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C11A08125FC0D8C00DB6386 /* menu.json in Resources */,
 				9C11A05B25FBB54800DB6386 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,10 +422,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C11A09225FD627A00DB6386 /* ItemRow.swift in Sources */,
+				9C349BD62606863E008DB2D8 /* Ch10StateBinding.swift in Sources */,
+				9C11A0A7260004E400DB6386 /* MainView.swift in Sources */,
+				9C11A07725FC0D7E00DB6386 /* Menu.swift in Sources */,
 				9C11A05225FBB54800DB6386 /* iDine.xcdatamodeld in Sources */,
+				9C11A09925FE9C1400DB6386 /* ItemDetail.swift in Sources */,
+				9C349C5B260D5152008DB2D8 /* Ch19ComposingVws.swift in Sources */,
+				9C74FE262602B86500829C74 /* Chapter4View.swift in Sources */,
+				9C349C46260A6E7A008DB2D8 /* Ch16Transforming.swift in Sources */,
 				9C11A05825FBB54800DB6386 /* Persistence.swift in Sources */,
+				9C349C4D260BA518008DB2D8 /* Ch17Drawing.swift in Sources */,
+				9C11A06F25FC0D6F00DB6386 /* Helper.swift in Sources */,
+				9C349BC126056639008DB2D8 /* Chapter7UIControls.swift in Sources */,
+				9C349BBA26054A9D008DB2D8 /* Chapter6StacksGridsScroll.swift in Sources */,
+				9C349BEB2607EC36008DB2D8 /* Ch13Containers.swift in Sources */,
+				9C11A0AE2600138900DB6386 /* CheckoutView.swift in Sources */,
 				9C11A05425FBB54800DB6386 /* iDineApp.swift in Sources */,
+				9C349C3F2609041C008DB2D8 /* Ch15PresentingViews.swift in Sources */,
+				9C349BCF26067BC2008DB2D8 /* Ch9Gestures.swift in Sources */,
+				9C349BF22608892C008DB2D8 /* Ch14AlertActionMenu.swift in Sources */,
 				9C11A05625FBB54800DB6386 /* ContentView.swift in Sources */,
+				9C11A0A025FFDCFC00DB6386 /* OrderView.swift in Sources */,
+				9C349BB32604F2E0008DB2D8 /* Chapter5Viewlayout.swift in Sources */,
+				9C349C54260BEBF4008DB2D8 /* Ch18Animation.swift in Sources */,
+				9C11A07925FC0D7E00DB6386 /* Order.swift in Sources */,
+				9C11A08B25FC168000DB6386 /* SwiftUIViewOne.swift in Sources */,
+				9C349BE42607D3CB008DB2D8 /* Ch12Forms.swift in Sources */,
+				9C349BC8260640DD008DB2D8 /* SwiftUIViewMap.swift in Sources */,
+				9C349BDD26076E19008DB2D8 /* Ch11Lists.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,10 +458,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C11A09325FD627A00DB6386 /* ItemRow.swift in Sources */,
+				9C349BD72606863E008DB2D8 /* Ch10StateBinding.swift in Sources */,
+				9C11A0A8260004E400DB6386 /* MainView.swift in Sources */,
+				9C11A07825FC0D7E00DB6386 /* Menu.swift in Sources */,
 				9C11A05325FBB54800DB6386 /* iDine.xcdatamodeld in Sources */,
+				9C11A09A25FE9C1400DB6386 /* ItemDetail.swift in Sources */,
+				9C349C5C260D5152008DB2D8 /* Ch19ComposingVws.swift in Sources */,
+				9C74FE272602B86500829C74 /* Chapter4View.swift in Sources */,
+				9C349C47260A6E7A008DB2D8 /* Ch16Transforming.swift in Sources */,
 				9C11A05925FBB54800DB6386 /* Persistence.swift in Sources */,
+				9C349C4E260BA518008DB2D8 /* Ch17Drawing.swift in Sources */,
+				9C11A07025FC0D6F00DB6386 /* Helper.swift in Sources */,
+				9C349BC226056639008DB2D8 /* Chapter7UIControls.swift in Sources */,
+				9C349BBB26054A9D008DB2D8 /* Chapter6StacksGridsScroll.swift in Sources */,
+				9C349BEC2607EC36008DB2D8 /* Ch13Containers.swift in Sources */,
+				9C11A0AF2600138A00DB6386 /* CheckoutView.swift in Sources */,
 				9C11A05525FBB54800DB6386 /* iDineApp.swift in Sources */,
+				9C349C402609041C008DB2D8 /* Ch15PresentingViews.swift in Sources */,
+				9C349BD026067BC2008DB2D8 /* Ch9Gestures.swift in Sources */,
+				9C349BF32608892C008DB2D8 /* Ch14AlertActionMenu.swift in Sources */,
 				9C11A05725FBB54800DB6386 /* ContentView.swift in Sources */,
+				9C11A0A125FFDCFC00DB6386 /* OrderView.swift in Sources */,
+				9C349BB42604F2E0008DB2D8 /* Chapter5Viewlayout.swift in Sources */,
+				9C349C55260BEBF4008DB2D8 /* Ch18Animation.swift in Sources */,
+				9C11A07A25FC0D7E00DB6386 /* Order.swift in Sources */,
+				9C11A08C25FC168000DB6386 /* SwiftUIViewOne.swift in Sources */,
+				9C349BE52607D3CB008DB2D8 /* Ch12Forms.swift in Sources */,
+				9C349BC9260640DD008DB2D8 /* SwiftUIViewMap.swift in Sources */,
+				9C349BDE26076E19008DB2D8 /* Ch11Lists.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
